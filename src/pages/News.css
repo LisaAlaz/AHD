@@ -1,0 +1,110 @@
+.container {
+    width: 100vw;
+    overflow-y: hidden;
+}
+
+.dark {
+    padding: 20px;
+    background-color: rgba(156, 171, 176, 0.8);
+    position: relative;
+}
+.dark:hover {
+    background-color: rgba(130, 150, 160, 0.8);
+    filter: brightness(107.5%);
+}
+
+.medium {
+    padding: 20px;
+    background-color: rgba(156, 171, 176, 0.7);
+    position: relative;
+}
+.medium:hover {
+    background-color: rgba(130, 150, 160, 0.8);
+    filter: brightness(107.5%);
+}
+
+.news-div {
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    padding-bottom: 8px;
+}
+
+@media screen and (min-width: 831px)  {
+  .title {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    display: 'inline-block';
+  }
+
+  .news-body {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    display: 'inline-block';
+  }
+
+  .date {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    display: 'inline-block';
+  }
+
+  .link-button {
+    background-color: rgba(156, 171, 176, 0.4);
+    border-radius: 10px;
+    border-width: 1.5px;
+    border-color: white;
+    border-style: solid;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 0.75vw;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 830px)  {
+    .title {
+      font-size: 115%;
+      font-weight: 700;
+      color: white;
+      display: 'inline-block';
+    }
+  
+    .news-body {
+      font-size: 105%;
+      font-weight: 500;
+      font-style: italic;
+      color: white;
+      display: 'inline-block';
+    }
+  
+    .date {
+      font-size: 95%;
+      font-weight: 500;
+      color: white;
+      display: 'inline-block';
+    }
+
+    .link-button {
+        background-color: rgba(156, 171, 176, 0.4);
+        border-radius: 10px;
+        border-width: 1.5px;
+        border-color: white;
+        border-style: solid;
+        width: fit-content;
+        height: fit-content;
+        margin-right: 2vw;
+        margin-top: 10px;
+    }
+}
+
+.button-div {
+    left: 0;
+    width: 100%;
+    display: flex;
+}

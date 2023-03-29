@@ -1,0 +1,336 @@
+@media screen and (min-width: 1301px) {
+    .contact-container {
+       padding-right: 20vw;
+       background-color: rgba(156, 171, 176, 0.7);
+    }
+
+    .image-container {
+       width: 87%;
+       height: 900px;
+       position: relative;
+       overflow: hidden;
+       left: 0px;
+    }
+
+    .image-container-landscape {
+      width: 87%;
+      height: 900px;
+      position: relative;
+      overflow: hidden;
+      left: 0px;
+   }
+
+    .image {
+       height: 100%;
+    }
+
+    .email-text {
+       font-size: 20px;
+       font-weight: bold;
+       color: white;
+       position: absolute;
+       top: 230px;
+       left: 73%;
+       right: 5%;
+    }
+    .link:hover { 
+       filter: brightness(94%);
+    }
+
+    a {
+       color: white;
+    }
+
+    .participate-button {
+       position: absolute;
+       top: 330px;
+       left: 73%;
+       background-color: rgba(156, 171, 176, 0.4);
+       border-radius: 10px;
+       border-width: 1.5px;
+       border-color: white;
+       border-style: solid;
+       width: fit-content;
+       height: fit-content;
+    }
+
+    .participate-button-landscape {
+      position: absolute;
+      top: 330px;
+      left: 73%;
+      background-color: rgba(156, 171, 176, 0.4);
+      border-radius: 10px;
+      border-width: 1.5px;
+      border-color: white;
+      border-style: solid;
+      width: fit-content;
+      height: fit-content;
+   }
+
+    .address-text {
+       font-size: 20px;
+       font-weight: bold;
+       color: white;
+       position: absolute;
+       top: 430px;
+       left: 73%;
+    }
+
+    .address-text-landscape {
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+      position: absolute;
+      top: 430px;
+      left: 73%;
+   }
+
+    .google-maps {
+       overflow: hidden;
+    }
+
+    .google-maps iframe {
+       position: absolute;
+       top: 600px;
+       left: 73%;
+       width: 22%;
+       height: 300px;
+    }
+
+    .google-maps-landscape {
+      overflow: hidden;
+   }
+
+   .google-maps-landscape iframe {
+      position: absolute;
+      top: 600px;
+      left: 73%;
+      width: 22%;
+      height: 300px;
+   }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 831px) {
+   .contact-container {
+       height: 100vh;
+       padding-right: 20vw;
+       background-color: rgba(156, 171, 176, 0.7);
+    }
+
+   .image-container {
+       width: 100vw;
+       position: relative;
+       overflow: hidden;
+       left: 0px;
+       top: 850px;
+    }
+
+   .image-container-landscape {
+      width: 100vw;
+      position: relative;
+      overflow: hidden;
+      left: 0px;
+      top: 850px;
+   }
+
+   .image {
+       width: 100%;
+    }
+
+   .email-text {
+       font-size: 20px;
+       font-weight: bold;
+       color: white;
+       position: absolute;
+       top: 170px;
+       left: 5%;
+       right: 5%;
+    }
+   .link:hover { 
+       filter: brightness(94%);
+    }
+
+   a {
+       color: white;
+    }
+
+   .participate-button {
+       position: absolute;
+       top: 260px;
+       left: 5%;
+       background-color: rgba(156, 171, 176, 0.4);
+       border-radius: 10px;
+       border-width: 1.5px;
+       border-color: white;
+       border-style: solid;
+       width: fit-content;
+       height: fit-content;
+    }
+
+   .participate-button-landscape {
+      position: absolute;
+      top: 260px;
+      left: 5%;
+      background-color: rgba(156, 171, 176, 0.4);
+      border-radius: 10px;
+      border-width: 1.5px;
+      border-color: white;
+      border-style: solid;
+      width: fit-content;
+      height: fit-content;
+   }
+
+   .address-text {
+       font-size: 20px;
+       font-weight: bold;
+       color: white;
+       position: absolute;
+       top: 365px;
+       left: 5%;
+    }
+
+   .address-text-landscape {
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+      position: absolute;
+      top: 365px;
+      left: 5%;
+   }
+
+   .google-maps {
+       overflow: hidden;
+    }
+
+   .google-maps iframe {
+       position: absolute;
+       top: 525px;
+       left: 5%;
+       width: 55%;
+       height: 35%;
+    }
+
+   .google-maps-landscape {
+      overflow: hidden;
+   }
+
+   .google-maps-landscape iframe {
+      position: absolute;
+      top: 525px;
+      left: 5%;
+      width: 55%;
+      height: 35%;
+   }
+}
+
+@media screen and (max-width: 830px) {
+   .contact-container {
+      height: 120vh;
+      padding-right: 20vw;
+      background-color: rgba(156, 171, 176, 0.7);
+   }
+
+   .image-container {
+      width: 100vw;
+      position: relative;
+      overflow: hidden;
+      left: 0px;
+      top: 75%;
+   }
+
+   .image-container-landscape {
+      width: 0px;
+      position: relative;
+      overflow: hidden;
+      left: 0px;
+   }
+
+   .image {
+      width: 100%;
+   }
+
+   .email-text {
+      font-size: 115%;
+      font-weight: bold;
+      color: white;
+      position: absolute;
+      top: 23%;
+      left: 5%;
+      right: 5%;
+   }
+   .link:hover { 
+      filter: brightness(94%);
+   }
+
+   a {
+      color: white;
+   }
+
+   .participate-button {
+      position: absolute;
+      top: 35%;
+      left: 5%;
+      background-color: rgba(156, 171, 176, 0.4);
+      border-radius: 10px;
+      border-width: 1.5px;
+      border-color: white;
+      border-style: solid;
+      width: fit-content;
+      height: fit-content;
+   }
+
+   .participate-button-landscape {
+      position: absolute;
+      top: 35%;
+      left: 5%;
+      background-color: rgba(156, 171, 176, 0.4);
+      border-radius: 10px;
+      border-width: 1.5px;
+      border-color: white;
+      border-style: solid;
+      width: fit-content;
+      height: fit-content;
+   }
+
+   .address-text {
+      font-size: 115%;
+      font-weight: bold;
+      color: white;
+      position: absolute;
+      top: 48%;
+      left: 5%;
+   }
+
+   .address-text-landscape {
+      font-size: 100%;
+      font-weight: bold;
+      color: white;
+      position: absolute;
+      top: 55%;
+      left: 5%;
+   }
+
+   .google-maps {
+      overflow: hidden;
+   }
+
+   .google-maps iframe {
+      position: absolute;
+      top: 70%;
+      left: 5%;
+      width: 60%;
+      height: 30%;
+   }
+
+   .google-maps-landscape {
+      overflow: hidden;
+   }
+
+   .google-maps-landscape iframe {
+      position: absolute;
+      top: 90%;
+      left: 5%;
+      width: 60%;
+      height: 30%;
+   }
+}

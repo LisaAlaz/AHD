@@ -1,38 +1,591 @@
-.App {
-  text-align: center;
+
+.body {
+  max-width: 100vw;
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@media screen and (min-width: 1651px) {
+  .header {
+    display: flex;
+    border: none;
+    height: 117.5px;
+    position: relative;
+    width: 100%;
+    place-content: space-between;
+    align-content: space-between;
+    justify-content: space-between;
+    right: 28px;
+  }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .ad-container {
+    width: 100vw;
+    background-color: #bf5454;
+  }
+
+  .advert {
+    display: block;
+    width: 100%;
+    color: white;
+    font-size: 0.85vw;
+    font-weight: 600;
+    padding-top: 9px;
+    padding-bottom: 11px;
+    height: fit-content;
+    text-align: center;
+  }
+
+  .ahd-logo {
+    cursor: pointer;
+    display: flex;
+    margin-top: 24px;
+    margin-left: 52px;
+    margin-right: 8.5vw;
+    height: 77px;
+  }
+
+  .vertical-menu-item-container {
+    cursor: pointer;
+    flex-direction: column;
+    margin: 35px;
+    background-color: white;
+  }
+
+  .vertical-menu-item-container-landscape {
+    cursor: pointer;
+    flex-direction: column;
+    margin: 15px;
+    background-color: white;
+  }
+
+  .menu-dialog {
+    position: absolute;
+    width: fit-content;
+    height: 100%;
+    margin-top: 0;
+    background-color: white;
+  }
+
+  .menu-dialog-landscape {
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    margin-top: 0;
+    background-color: white;
+  }
+
+  .menu-vertical {
+    font-size: 18px;
+    font-weight: 600;
+    color: #16267E;
+  }
+  .menu-vertical:hover {
+    text-decoration: underline;
+  }
+
+  .footer-text {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 300;
+    color: #16267E;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .menu-icon {
+    cursor: pointer;
+    color: #16267E;
+    height: 40px;
+    padding-top: 2.5%;
+  }
+
+  .menu-icon-landscape {
+    cursor: pointer;
+    color: #16267E;
+    height: 40%;
+    padding-top: 4%;
+    padding-right: 2.5%;
+  }
+
+  .menu {
+    font-size: 16px;
+    font-weight: 600;
+    color: #16267E;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media screen and (max-width: 1650px) and (min-width: 1581px) {
+  .header {
+    display: flex;
+    border: none;
+    height: 117.5px;
+    position: relative;
+    width: 100%;
+    place-content: space-between;
+    align-content: space-between;
+    justify-content: space-between;
+    right: 28px;
+  }
+
+  .ad-container {
+    width: 100vw;
+    background-color: #bf5454;
+  }
+
+  .advert {
+    display: block;
+    width: 100%;
+    color: white;
+    font-size: 0.85vw;
+    font-weight: 600;
+    padding-top: 9px;
+    padding-bottom: 11px;
+    height: fit-content;
+    text-align: center;
+  }
+
+  .ahd-logo {
+    cursor: pointer;
+    display: flex;
+    margin-top: 24px;
+    margin-left: 52px;
+    margin-right: 8.5vw;
+    height: 77px;
+  }
+
+  .vertical-menu-item-container {
+    cursor: pointer;
+    flex-direction: column;
+    margin: 35px;
+    background-color: white;
+  }
+
+  .vertical-menu-item-container-landscape {
+    cursor: pointer;
+    flex-direction: column;
+    margin: 15px;
+    background-color: white;
+  }
+
+  .menu-dialog {
+    position: absolute;
+    width: fit-content;
+    height: 100%;
+    margin-top: 0;
+    background-color: white;
+  }
+
+  .menu-dialog-landscape {
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    margin-top: 0;
+    background-color: white;
+  }
+
+  .menu-vertical {
+    font-size: 18px;
+    font-weight: 600;
+    color: #16267E;
+  }
+  .menu-vertical:hover {
+    text-decoration: underline;
+  }
+
+  .footer-text {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 300;
+    color: #16267E;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .menu-icon {
+    cursor: pointer;
+    color: #16267E;
+    height: 40px;
+    padding-top: 2.5%;
+  }
+
+  .menu-icon-landscape {
+    cursor: pointer;
+    color: #16267E;
+    height: 40%;
+    padding-top: 4%;
+    padding-right: 2.5%;
+  }
+
+  .menu {
+    font-size: 14.5px;
+    font-weight: 600;
+    color: #16267E;
+  }
 }
 
-.App-link {
-  color: #61dafb;
+@media screen and (max-width: 1580px) and (min-width: 1486px) {
+  .header {
+    display: flex;
+    border: none;
+    height: 117.5px;
+    position: relative;
+    width: 100%;
+    place-content: space-between;
+    align-content: space-between;
+    justify-content: space-between;
+    right: 28px;
+  }
+
+  .ad-container {
+    width: 100vw;
+    background-color: #bf5454;
+  }
+
+  .advert {
+    display: block;
+    width: 100%;
+    color: white;
+    font-size: 0.85vw;
+    font-weight: 600;
+    padding-top: 9px;
+    padding-bottom: 11px;
+    height: fit-content;
+    text-align: center;
+  }
+
+  .ahd-logo {
+    cursor: pointer;
+    display: flex;
+    margin-top: 24px;
+    margin-left: 52px;
+    margin-right: 8.5vw;
+    height: 77px;
+  }
+
+  .vertical-menu-item-container {
+    cursor: pointer;
+    flex-direction: column;
+    margin: 35px;
+    background-color: white;
+  }
+
+  .vertical-menu-item-container-landscape {
+    cursor: pointer;
+    flex-direction: column;
+    margin: 15px;
+    background-color: white;
+  }
+
+  .menu-dialog {
+    position: absolute;
+    width: fit-content;
+    height: 100%;
+    margin-top: 0;
+    background-color: white;
+  }
+
+  .menu-dialog-landscape {
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    margin-top: 0;
+    background-color: white;
+  }
+
+  .menu-vertical {
+    font-size: 18px;
+    font-weight: 600;
+    color: #16267E;
+  }
+  .menu-vertical:hover {
+    text-decoration: underline;
+  }
+
+  .footer-text {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 300;
+    color: #16267E;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .menu-icon {
+    cursor: pointer;
+    color: #16267E;
+    height: 40px;
+    padding-top: 2.5%;
+  }
+
+  .menu-icon-landscape {
+    cursor: pointer;
+    color: #16267E;
+    height: 40%;
+    padding-top: 4%;
+    padding-right: 2.5%;
+  }
+
+  .menu {
+    font-size: 12.5px;
+    font-weight: 600;
+    color: #16267E;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 1485px) and (min-width: 831px) {
+  .header {
+    display: flex;
+    border: none;
+    height: 117.5px;
+    position: relative;
+    width: 100%;
+    place-content: space-between;
+    align-content: space-between;
+    justify-content: space-between;
+    right: 28px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .ad-container {
+    width: 100vw;
+    background-color: #bf5454;
   }
+
+  .advert {
+    display: block;
+    width: 100vw;
+    color: white;
+    font-size: 1.25vw;
+    font-weight: 600;
+    padding-top: 9px;
+    padding-bottom: 12px;
+    background-color: #bf5454;
+    text-align: center;
+  }
+
+  .ahd-logo {
+    cursor: pointer;
+    display: flex;
+    margin-top: 24px;
+    margin-left: 52px;
+    margin-right: 20vw;
+    height: 65%;
+  }
+
+  .vertical-menu-item-container {
+    cursor: pointer;
+    flex-direction: column;
+    margin: 35px;
+    background-color: white;
+  }
+
+  .vertical-menu-item-container-landscape {
+    cursor: pointer;
+    flex-direction: column;
+    margin: 15px;
+    background-color: white;
+  }
+
+  .menu-dialog {
+    position: absolute;
+    width: fit-content;
+    height: 100%;
+    margin-top: 0;
+    background-color: white;
+  }
+
+  .menu-dialog-landscape {
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    margin-top: 0;
+    background-color: white;
+  }
+
+  .menu-vertical {
+    font-size: 18px;
+    font-weight: 600;
+    color: #16267E;
+  }
+  .menu-vertical:hover {
+    text-decoration: underline;
+  }
+
+  .footer-text {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 300;
+    color: #16267E;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .menu-icon {
+    cursor: pointer;
+    color: #16267E;
+    height: 40px;
+    padding-top: 4vh;
+  }
+
+  .menu-icon-landscape {
+    cursor: pointer;
+    color: #16267E;
+    height: 40%;
+    padding-top: 4%;
+    padding-right: 2.5%;
+  }
+
+  .menu {
+    font-size: 18px;
+    font-weight: 600;
+    color: #16267E;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .header {
+    display: flex;
+    border: none;
+    height: 18vh;
+    position: relative;
+    width: 100%;
+    place-content: space-between;
+    align-content: space-between;
+    justify-content: space-between;
+    right: 28px;
+  }
+
+  .ad-container {
+    width: 100vw;
+    background-color: #bf5454;
+  }
+
+  .advert {
+    display: block;
+    width: 95vw;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    padding-top: 9px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    text-align: left;
+  }
+
+  .ahd-logo {
+    cursor: pointer;
+    display: flex;
+    margin-top: 3vh;
+    margin-left: 50px;
+    margin-right: 20vw;
+    height: 46%;
+  }
+
+  .vertical-menu-item-container {
+    cursor: pointer;
+    flex-direction: column;
+    margin: 12%;
+    background-color: white;
+  }
+
+  .vertical-menu-item-container-landscape {
+    cursor: pointer;
+    flex-direction: column;
+    margin: 3.5%;
+    background-color: white;
+  }
+
+  .menu-dialog {
+    position: absolute;
+    width: fit-content;
+    height: 100%;
+    margin-top: 0;
+    background-color: white;
+  }
+
+  .menu-dialog-landscape {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    margin-top: 0;
+    background-color: white;
+  }
+
+  .menu-vertical {
+    font-size: 16px;
+    padding-right: 10%;
+    font-weight: 600;
+    color: #16267E;
+  }
+  .menu-vertical:hover {
+    text-decoration: underline;
+  }
+
+  .footer-text {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 300;
+    color: #16267E;
+    background-color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  
+  .menu-icon {
+    cursor: pointer;
+    color: #16267E;
+    height: 30%;
+    padding-top: 5vh;
+  }
+
+  .menu-icon-landscape {
+    cursor: pointer;
+    color: #16267E;
+    height: 45%;
+    padding-top: 2.5%;
+    padding-right: 2.5%;
+  }
+
+  .menu {
+    font-size: 18px;
+    font-weight: 600;
+    color: #16267E;
+  }
+}
+
+.horizontal-menu-item-container {
+  cursor: pointer;
+  flex-direction: row;
+  margin-left: 50px;
+  margin-top: 77.5px;
+}
+
+.close-icon-container {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.close-icon {
+  cursor: pointer;
+  width: 20px;
+  color: #16267E;
+}
+
+.main-content {
+  flex: 1;
+  height: fit-content;
+}
+
+.footer {
+  display: block;
+  width: 100%;
+  position: relative;
 }

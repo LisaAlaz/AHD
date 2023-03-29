@@ -1,0 +1,105 @@
+@media screen and (min-width: 1300px) {
+    .members-container {
+        display: grid;
+        grid-template-rows: repeat(3, 330px);
+        grid-template-columns: repeat(4, 25%);
+    }
+}
+
+@media screen and (max-width: 1299px) and (min-width: 660px) {
+    .members-container {
+        display: grid;
+        grid-template-rows: repeat(6, 340px);
+        grid-template-columns: repeat(2, 50%);
+    }
+}
+
+@media screen and (max-width: 659px) {
+    .members-container {
+        display: grid;
+        grid-template-rows: repeat(12, 330px);
+        grid-template-columns: repeat(1, 100%);
+    }
+}
+
+.dark-background {
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(156, 171, 176, 0.8);
+    position: relative;
+}
+.dark-background:hover {
+    background-color: rgba(130, 150, 160, 0.8);
+    filter: brightness(107.5%);
+}
+
+.medium-background {
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(156, 171, 176, 0.7);
+    position: relative;
+}
+.medium-background:hover {
+    background-color: rgba(130, 150, 160, 0.8);
+    filter: brightness(107.5%);
+}
+
+.light-background {
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(156, 171, 176, 0.6);
+    position: relative;
+}
+.light-background:hover {
+    background-color: rgba(130, 150, 160, 0.8);
+    filter: brightness(107.5%);
+}
+
+.text-container {
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+}
+
+.name {
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+    display: 'inline-block';
+}
+
+.job-title {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    display: 'inline-block';
+}
+
+.profile-pic {
+    height: 200px;
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+    overflow: hidden;
+}
+
+/* .email-button {
+    height: fit-content;
+    border-radius: 40px;
+} */
+
+.icon {
+    cursor: pointer;
+    width: 25px;
+    margin-top: 40px;
+    margin-right: 5px;
+    flex: 1 0;
+}
+.icon:hover {
+    filter: brightness(87.5%);
+}

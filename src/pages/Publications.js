@@ -21,14 +21,9 @@ import nips13_paper from '../papers/nips-2013.pdf';
 import nips13_supplement from '../papers/nips-sup-2013.pdf';
 import ijcnn13_paper from '../papers/ijcnn-2013.pdf';
 import bukhara_paper from '../papers/Mongols-8-3-13.pdf';
-import vr_paper from '../papers/VR_SAT_study_unpublished.pdf';
 
 
 const articles = [
-    {title: "Proof of Concept for Efficacy of VR-based Self-Attachment Intervention in a Non-Clinical Population",
-     author: "Abbas Edalat, Neophytos Polydorou, Frank Ryan, Barney Gilbert, Dasha Nicholls",
-     pdf: vr_paper},
-
     {title: "A Multilingual Virtual Guide for Self-Attachment Technique",
      journal: "Proceedings of the Fourth IEEE International Conference on Cognitive Machine Intelligence, 2022",
      author: "Alicia Jiayun Law, Ruoyu Hu, Lisa Alazraki, Abbas Edalat, Anandha Gopalan, Neophytos Polydorou",

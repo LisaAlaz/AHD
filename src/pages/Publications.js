@@ -25,8 +25,9 @@ import bukhara_paper from '../papers/Mongols-8-3-13.pdf';
 
 const articles = [
     {title: "A Multilingual Virtual Guide for Self-Attachment Technique",
-     journal: "Proceedings of the Fourth IEEE International Conference on Cognitive Machine Intelligence, 2022",
-     author: "Alicia Jiayun Law, Ruoyu Hu, Lisa Alazraki, Abbas Edalat, Anandha Gopalan, Neophytos Polydorou",
+     journal: "Proceedings of the Fourth IEEE International Conference on Cognitive Machine Intelligence, 2022 (Best Student Paper Award winner)",
+     author: "Alicia Jiayun Law, Ruoyu Hu, Lisa Alazraki, Anandha Gopalan, Neophytos Polydorou, Abbas Edalat",
+     link: "https://ieeexplore.ieee.org/abstract/document/10063528",
      pdf: cogmi22_paper},
 
     {title: "A Pilot Study to Evaluate the Efficacy of Self-Attachment to Treat Chronic Anxiety and/or Depression in Iranian Women",

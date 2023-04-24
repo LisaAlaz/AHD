@@ -98,8 +98,7 @@ const App = () => {
       </div>
       <div variant={"ad-container"} className={"ad-container"}>
         <Typography variant={"advert"} className={"advert"}>
-             We are currently recruiting volunteers to participate in our upcoming study. If you would like to learn more, please 
-             read the <u><a href="https://www.doc.ic.ac.uk/~rh4618/3vNP/?auth=76d82X0H7cJMqvEPqpfz1gLk8NtMM7Zh" target="_blank">information page</a></u> or <u><a href="https://imperial.eu.qualtrics.com/jfe/form/SV_1FgkIz2ySsxH2e2" target="_blank">sign up</a></u>.
+             Watch Professor Edalat's talk <i>"Algorithmic Human Development: What is it and why do we need it now?"</i> at the Data Science Institute of Imperial College London: <u><a href="https://humandevelopment.doc.ic.ac.uk/videos/video_AHD_session_1.mp4" target="_blank" rel="noreferrer">Session 1</a></u>, <u><a href="https://humandevelopment.doc.ic.ac.uk/videos/video_AHD_session_2.mp4" target="_blank" rel="noreferrer">Session 2</a></u>.
         </Typography>
       </div>
       {/* Main page content */}

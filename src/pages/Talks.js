@@ -15,6 +15,18 @@ const talks = [
      link: "http://humandevelopment.doc.ic.ac.uk/videos/Division_of_Psychiatry_Talk.mp4",
     },
 
+    {title: "Algorithmic Human Development: What is it and why do we need it now? (Session 1)",
+     venue: "Data Science Institute, Imperial College London, 2019",
+     author: "Abbas Edalat",
+     link: "https://humandevelopment.doc.ic.ac.uk/videos/video_AHD_session_1.mp4",
+    },
+
+    {title: "Algorithmic Human Development: What is it and why do we need it now? (Session 2)",
+     venue: "Data Science Institute, Imperial College London, 2019",
+     author: "Abbas Edalat",
+     link: "https://humandevelopment.doc.ic.ac.uk/videos/video_AHD_session_2.mp4",
+    },
+
     {title: "A Self-attachment workshop for psychotherapy, increasing emotional and social intelligence, and creativity (Part 1) - A new approach to psychological disorders",
      venue: "Institute for Cognitive Sciences Studies, Tehran, 01/11/2018",
      author: "Abbas Edalat",
@@ -65,7 +77,7 @@ const Talks = () => {
                 style={{color: 'white', textTransform: 'none', fontSize: '15px', fontWeight: 600}} 
                 onClick={() => window.open(talk.link, "_blank")}
               >
-                {(talk.title === "Introducing Self-Attachment" || talk.title === "Self-attachment technique (SAT): Theory, effectiveness and VR delivery") ? (
+                {(talk.title === "Introducing Self-Attachment" || talk.title === "Self-attachment technique (SAT): Theory, effectiveness and VR delivery" || talk.title.includes("Algorithmic Human Development: What is it and why do we need it now?")) ? (
                     "Video") : ("PDF")}
               </Button>
             </div>

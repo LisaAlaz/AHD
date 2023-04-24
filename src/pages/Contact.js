@@ -37,7 +37,7 @@ const Contact = () => {
         variant="email-text"
         className="email-text"
       >
-        General enquiries: <u><a href="mailto:ahd@imperial.ac.uk" target="_blank" className='link'>ahd@imperial.ac.uk</a></u>
+        General enquiries: <u><a href="mailto:ahd@imperial.ac.uk" target="_blank" rel="noreferrer" className='link'>ahd@imperial.ac.uk</a></u>
       </Typography>
       <div className={windowSize[0] < windowSize[1] ? ("participate-button") : ("participate-button-landscape")}>
         <Button

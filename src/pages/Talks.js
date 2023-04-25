@@ -7,6 +7,7 @@ import icssWorkshop2 from "../papers/ICSS-workshop-2018-2.pdf";
 import wcpTalk from "../papers/WCP-talk.pdf";
 import ipaWorkshop from "../papers/IPA-second-workshop-1.pdf";
 import iopTalk from "../papers/iop-talk.pdf";
+import dsiTalk from "../papers/AHD-IC.pdf";
 
 const talks = [
     {title: "Self-attachment technique (SAT): Theory, effectiveness and VR delivery",
@@ -15,16 +16,22 @@ const talks = [
      link: "http://humandevelopment.doc.ic.ac.uk/videos/Division_of_Psychiatry_Talk.mp4",
     },
 
-    {title: "Algorithmic Human Development: What is it and why do we need it now? (Session 1)",
-     venue: "Data Science Institute, Imperial College London, 2019",
+    {title: "Algorithmic Human Development: A new way to enhance social and emotional intelligence and foster creativity (Session 1)",
+     venue: "Empowered Human Foundation, Vancouver, 16/05/2021",
      author: "Abbas Edalat",
      link: "https://humandevelopment.doc.ic.ac.uk/videos/video_AHD_session_1.mp4",
     },
 
-    {title: "Algorithmic Human Development: What is it and why do we need it now? (Session 2)",
-     venue: "Data Science Institute, Imperial College London, 2019",
+    {title: "Algorithmic Human Development: A new way to enhance social and emotional intelligence and foster creativity (Session 2)",
+     venue: "Empowered Human Foundation, Vancouver, 23/05/2021",
      author: "Abbas Edalat",
      link: "https://humandevelopment.doc.ic.ac.uk/videos/video_AHD_session_2.mp4",
+    },
+
+    {title: "Algorithmic Human Development: What is it and why do we need it now?",
+     venue: "Data Science Institute, Imperial College London, 24/10/2019",
+     author: "Abbas Edalat",
+     link: dsiTalk,
     },
 
     {title: "A Self-attachment workshop for psychotherapy, increasing emotional and social intelligence, and creativity (Part 1) - A new approach to psychological disorders",
@@ -77,7 +84,7 @@ const Talks = () => {
                 style={{color: 'white', textTransform: 'none', fontSize: '15px', fontWeight: 600}} 
                 onClick={() => window.open(talk.link, "_blank")}
               >
-                {(talk.title === "Introducing Self-Attachment" || talk.title === "Self-attachment technique (SAT): Theory, effectiveness and VR delivery" || talk.title.includes("Algorithmic Human Development: What is it and why do we need it now?")) ? (
+                {(talk.title === "Introducing Self-Attachment" || talk.title === "Self-attachment technique (SAT): Theory, effectiveness and VR delivery" || talk.title.includes("A new way to enhance social and emotional intelligence and foster creativity")) ? (
                     "Video") : ("PDF")}
               </Button>
             </div>

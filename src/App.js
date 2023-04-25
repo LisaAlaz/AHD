@@ -13,6 +13,8 @@ import SlideShow from './pages/SlideShow';
 import { Popper, Typography } from "@material-ui/core";
 import MenuIcon from './img/menuIcon.png';
 import CloseIcon from './img/closeIcon.png';
+import dsiTalk from "./papers/AHD-IC.pdf";
+
 
 const App = () => {
 
@@ -98,7 +100,7 @@ const App = () => {
       </div>
       <div variant={"ad-container"} className={"ad-container"}>
         <Typography variant={"advert"} className={"advert"}>
-             Watch Professor Edalat's talk <i>"Algorithmic Human Development: What is it and why do we need it now?"</i> at the Data Science Institute of Imperial College London: <u><a href="https://humandevelopment.doc.ic.ac.uk/videos/video_AHD_session_1.mp4" target="_blank" rel="noreferrer">Session 1</a></u>, <u><a href="https://humandevelopment.doc.ic.ac.uk/videos/video_AHD_session_2.mp4" target="_blank" rel="noreferrer">Session 2</a></u>.
+             Click <u><a href={dsiTalk} target="_blank" rel="noreferrer">here</a></u> for Professor Edalat's talk <i>"Algorithmic Human Development: What is it and why do we need it now?"</i> at the Data Science Institute of Imperial College London.
         </Typography>
       </div>
       {/* Main page content */}

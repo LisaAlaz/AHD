@@ -13,7 +13,6 @@ import SlideShow from './pages/SlideShow';
 import { Popper, Typography } from "@material-ui/core";
 import MenuIcon from './img/menuIcon.png';
 import CloseIcon from './img/closeIcon.png';
-import dsiTalk from "./papers/AHD-IC.pdf";
 
 
 const App = () => {
@@ -100,7 +99,7 @@ const App = () => {
       </div>
       <div variant={"ad-container"} className={"ad-container"}>
         <Typography variant={"advert"} className={"advert"}>
-             Click <u><a href={dsiTalk} target="_blank" rel="noreferrer">here</a></u> for Professor Edalat's talk <i>"Algorithmic Human Development: What is it and why do we need it now?"</i> at the Data Science Institute of Imperial College London.
+             Watch Professor Edalat's talk <i>"Self-attachment technique (SAT): Theory, effectiveness and VR delivery"</i> at the Division of Psychiatry of Imperial College London: <u><a href="https://humandevelopment.doc.ic.ac.uk/videos/Division_of_Psychiatry_Talk.mp4" target="_blank" rel="noreferrer">video</a></u>
         </Typography>
       </div>
       {/* Main page content */}

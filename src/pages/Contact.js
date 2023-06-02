@@ -34,15 +34,15 @@ const Contact = () => {
         <img src={huxley} alt="" className='image'/>
       </div>
       <Typography 
-        variant="email-text"
-        className="email-text"
+        variant={windowSize[0] < windowSize[1] ? ("email-text") : ("email-text-landscape")}
+        className={windowSize[0] < windowSize[1] ? ("email-text") : ("email-text-landscape")}
       >
         General enquiries: <u><a href="mailto:ahd@imperial.ac.uk" target="_blank" rel="noreferrer" className='link'>ahd@imperial.ac.uk</a></u>
       </Typography>
       <div className={windowSize[0] < windowSize[1] ? ("participate-button") : ("participate-button-landscape")}>
         <Button
           onClick={openForm}
-          style={{color: 'white', textTransform: 'none', fontSize: '15px', fontWeight: 600}}
+          style={{color: 'rgb(1, 7, 74)', textTransform: 'none', fontSize: '15px', fontWeight: 600}}
         >
             Participate in future studies
         </Button>

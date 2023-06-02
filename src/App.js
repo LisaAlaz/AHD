@@ -99,7 +99,7 @@ const App = () => {
       </div>
       <div variant={"ad-container"} className={"ad-container"}>
         <Typography variant={"advert"} className={"advert"}>
-             Watch Professor Edalat's talk <i>"Self-attachment technique (SAT): Theory, effectiveness and VR delivery"</i> at the Division of Psychiatry of Imperial College London: <u><a href="https://humandevelopment.doc.ic.ac.uk/videos/Division_of_Psychiatry_Talk.mp4" target="_blank" rel="noreferrer">video</a></u>
+             Watch Professor Edalat's talk <i>"Self-attachment technique (SAT): Theory, effectiveness and VR delivery"</i> at the Division of Psychiatry of Imperial College London: <u><a href="https://humandevelopment.doc.ic.ac.uk/videos/Division_of_Psychiatry_Talk.mp4" target="_blank" rel="noreferrer" style={{color: "white"}}>video</a></u>
         </Typography>
       </div>
       {/* Main page content */}

@@ -159,7 +159,7 @@ const Publications = () => {
           {article.link !== undefined ? (
               <div className='publication-button'>
                 <Button 
-                  style={{color: 'white', textTransform: 'none', fontSize: '15px', fontWeight: 600}} 
+                  style={{color: 'rgb(1, 7, 74)', textTransform: 'none', fontSize: '15px', fontWeight: 600}} 
                   onClick={() => window.open(article.link, "_blank")}
                 >
                   {article.title === "Trauma Hypothesis: The enduring legacy of the Mongol Catastrophe on the Political, Social and Scientific History of Iran" ? (
@@ -170,7 +170,7 @@ const Publications = () => {
           }    
             <div className='publication-button'>
               <Button
-                style={{color: 'white', textTransform: 'none', fontSize: '15px', fontWeight: 600}} 
+                style={{color: 'rgb(1, 7, 74)', textTransform: 'none', fontSize: '15px', fontWeight: 600}} 
                 onClick={() => window.open(article.pdf, "_blank")}
               >
                 PDF
@@ -179,7 +179,7 @@ const Publications = () => {
             {article.supplement !== undefined ? (
               <div className='publication-button'>
                 <Button
-                  style={{color: 'white', textTransform: 'none', fontSize: '15px', fontWeight: 600}} 
+                  style={{color: 'rgb(1, 7, 74)', textTransform: 'none', fontSize: '15px', fontWeight: 600}} 
                   onClick={() => window.open(article.supplement, "_blank")}
                 >
                   Supplementary material

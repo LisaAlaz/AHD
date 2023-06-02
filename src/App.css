@@ -19,7 +19,7 @@
 
   .ad-container {
     width: 100vw;
-    background-color: #bf5454;
+    background-color: #16267e;
   }
 
   .advert {
@@ -76,7 +76,7 @@
   .menu-vertical {
     font-size: 18px;
     font-weight: 600;
-    color: #16267E;
+    color: rgb(1, 7, 74);
   }
   .menu-vertical:hover {
     text-decoration: underline;
@@ -87,7 +87,7 @@
     justify-content: center;
     font-size: 12px;
     font-weight: 300;
-    color: #16267E;
+    color: rgb(1, 7, 74);
     background-color: white;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -95,14 +95,14 @@
   
   .menu-icon {
     cursor: pointer;
-    color: #16267E;
+    color: rgb(1, 7, 74);
     height: 40px;
     padding-top: 2.5%;
   }
 
   .menu-icon-landscape {
     cursor: pointer;
-    color: #16267E;
+    color: rgb(1, 7, 74);
     height: 40%;
     padding-top: 4%;
     padding-right: 2.5%;
@@ -111,7 +111,7 @@
   .menu {
     font-size: 16px;
     font-weight: 600;
-    color: #16267E;
+    color: rgb(1, 7, 74);
   }
 }
 
@@ -130,7 +130,7 @@
 
   .ad-container {
     width: 100vw;
-    background-color: #bf5454;
+    background-color: #16267e;
   }
 
   .advert {
@@ -187,7 +187,7 @@
   .menu-vertical {
     font-size: 18px;
     font-weight: 600;
-    color: #16267E;
+    color: rgb(1, 7, 74);
   }
   .menu-vertical:hover {
     text-decoration: underline;
@@ -198,7 +198,7 @@
     justify-content: center;
     font-size: 12px;
     font-weight: 300;
-    color: #16267E;
+    color: rgb(1, 7, 74);
     background-color: white;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -206,14 +206,14 @@
   
   .menu-icon {
     cursor: pointer;
-    color: #16267E;
+    color: rgb(1, 7, 74);
     height: 40px;
     padding-top: 2.5%;
   }
 
   .menu-icon-landscape {
     cursor: pointer;
-    color: #16267E;
+    color: rgb(1, 7, 74);
     height: 40%;
     padding-top: 4%;
     padding-right: 2.5%;
@@ -222,7 +222,7 @@
   .menu {
     font-size: 14.5px;
     font-weight: 600;
-    color: #16267E;
+    color: rgb(1, 7, 74);
   }
 }
 
@@ -241,7 +241,7 @@
 
   .ad-container {
     width: 100vw;
-    background-color: #bf5454;
+    background-color: #16267e;
   }
 
   .advert {
@@ -252,6 +252,7 @@
     font-weight: 600;
     padding-top: 9px;
     padding-bottom: 11px;
+    padding-right: 10px;
     height: fit-content;
     text-align: center;
   }
@@ -298,7 +299,7 @@
   .menu-vertical {
     font-size: 18px;
     font-weight: 600;
-    color: #16267E;
+    color: rgb(1, 7, 74);
   }
   .menu-vertical:hover {
     text-decoration: underline;
@@ -309,7 +310,7 @@
     justify-content: center;
     font-size: 12px;
     font-weight: 300;
-    color: #16267E;
+    color: rgb(1, 7, 74);
     background-color: white;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -317,14 +318,14 @@
   
   .menu-icon {
     cursor: pointer;
-    color: #16267E;
+    color: rgb(1, 7, 74);
     height: 40px;
     padding-top: 2.5%;
   }
 
   .menu-icon-landscape {
     cursor: pointer;
-    color: #16267E;
+    color: rgb(1, 7, 74);
     height: 40%;
     padding-top: 4%;
     padding-right: 2.5%;
@@ -333,7 +334,7 @@
   .menu {
     font-size: 12.5px;
     font-weight: 600;
-    color: #16267E;
+    color: rgb(1, 7, 74);
   }
 }
 
@@ -352,7 +353,7 @@
 
   .ad-container {
     width: 100vw;
-    background-color: #bf5454;
+    background-color: #16267e;
   }
 
   .advert {
@@ -363,8 +364,9 @@
     font-weight: 600;
     padding-top: 9px;
     padding-bottom: 12px;
-    background-color: #bf5454;
-    text-align: center;
+    padding-left: 10px;
+    background-color: #16267e;
+    text-align: left;
   }
 
   .ahd-logo {
@@ -409,7 +411,7 @@
   .menu-vertical {
     font-size: 18px;
     font-weight: 600;
-    color: #16267E;
+    color: rgb(1, 7, 74);
   }
   .menu-vertical:hover {
     text-decoration: underline;
@@ -420,7 +422,7 @@
     justify-content: center;
     font-size: 12px;
     font-weight: 300;
-    color: #16267E;
+    color: rgb(1, 7, 74);
     background-color: white;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -428,14 +430,14 @@
   
   .menu-icon {
     cursor: pointer;
-    color: #16267E;
+    color: rgb(1, 7, 74);
     height: 40px;
     padding-top: 4vh;
   }
 
   .menu-icon-landscape {
     cursor: pointer;
-    color: #16267E;
+    color: rgb(1, 7, 74);
     height: 40%;
     padding-top: 4%;
     padding-right: 2.5%;
@@ -444,7 +446,7 @@
   .menu {
     font-size: 18px;
     font-weight: 600;
-    color: #16267E;
+    color: rgb(1, 7, 74);
   }
 }
 
@@ -463,7 +465,7 @@
 
   .ad-container {
     width: 100vw;
-    background-color: #bf5454;
+    background-color: #16267e;
   }
 
   .advert {
@@ -475,6 +477,7 @@
     padding-top: 9px;
     padding-bottom: 12px;
     padding-left: 10px;
+    padding-right: 10px;
     text-align: left;
   }
 
@@ -521,7 +524,7 @@
     font-size: 16px;
     padding-right: 10%;
     font-weight: 600;
-    color: #16267E;
+    color: rgb(1, 7, 74);
   }
   .menu-vertical:hover {
     text-decoration: underline;
@@ -532,7 +535,7 @@
     justify-content: center;
     font-size: 12px;
     font-weight: 300;
-    color: #16267E;
+    color: rgb(1, 7, 74);
     background-color: white;
     padding-top: 3%;
     padding-bottom: 3%;
@@ -540,14 +543,14 @@
   
   .menu-icon {
     cursor: pointer;
-    color: #16267E;
+    color: rgb(1, 7, 74);
     height: 30%;
     padding-top: 5vh;
   }
 
   .menu-icon-landscape {
     cursor: pointer;
-    color: #16267E;
+    color: rgb(1, 7, 74);
     height: 45%;
     padding-top: 2.5%;
     padding-right: 2.5%;
@@ -556,7 +559,7 @@
   .menu {
     font-size: 18px;
     font-weight: 600;
-    color: #16267E;
+    color: rgb(1, 7, 74);
   }
 }
 
@@ -576,7 +579,7 @@
 .close-icon {
   cursor: pointer;
   width: 20px;
-  color: #16267E;
+  color: rgb(1, 7, 74);
 }
 
 .main-content {

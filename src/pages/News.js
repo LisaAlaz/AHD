@@ -40,7 +40,7 @@ const News = () => {
             <Typography variant="date" className="date">{story.date}<br/></Typography>
           </div>
           <div className='news-div'>
-            <Typography variant="title" className="title">{story.title}<br/></Typography>
+            <Typography variant="news-title" className="news-title">{story.title}<br/></Typography>
           </div>
           <div className='news-div'>
             <Typography variant="news-body" className="news-body">{story.body}<br/></Typography>
@@ -49,7 +49,7 @@ const News = () => {
             {story.title === "Sign up to participate in our upcoming study" ? (
               <><div className='link-button'>
                 <Button
-                  style={{color: 'white', textTransform: 'none', fontSize: '15px', fontWeight: 600}} 
+                  style={{color: 'rgb(1, 7, 74)', textTransform: 'none', fontSize: '15px', fontWeight: 600}} 
                   onClick={() => window.open(story.info, "_blank")}
                 >
                   More info
@@ -57,7 +57,7 @@ const News = () => {
               </div>
               <div className='link-button'>
                 <Button
-                  style={{color: 'white', textTransform: 'none', fontSize: '15px', fontWeight: 600}} 
+                  style={{color: 'rgb(1, 7, 74)', textTransform: 'none', fontSize: '15px', fontWeight: 600}} 
                   onClick={() => window.open(story.signup, "_blank")}
                 >
                   Sign up
@@ -66,7 +66,7 @@ const News = () => {
             ) : (
               <div className='link-button'>
                 <Button
-                  style={{color: 'white', textTransform: 'none', fontSize: '15px', fontWeight: 600}} 
+                  style={{color: 'rgb(1, 7, 74)', textTransform: 'none', fontSize: '15px', fontWeight: 600}} 
                   onClick={() => window.open(story.link, "_blank")}
                 >
                   Visit link

@@ -5,21 +5,21 @@
 
 .dark {
     padding: 20px;
-    background-color: rgba(156, 171, 176, 0.8);
+    background-color: rgb(229, 230, 231);
     position: relative;
 }
 .dark:hover {
-    background-color: rgba(130, 150, 160, 0.7);
+    background-color: rgb(229, 230, 231);
     filter: brightness(98%);
 }
 
 .medium {
     padding: 20px;
-    background-color: rgba(156, 171, 176, 0.7);
+    background-color: rgb(242, 242, 242);
     position: relative;
 }
 .medium:hover {
-    background-color: rgba(130, 150, 160, 0.7);
+    background-color: rgb(242, 242, 242);
     filter: brightness(98%);
 }
 
@@ -32,77 +32,40 @@
     padding-bottom: 4px;
 }
 
-@media screen and (min-width: 831px)  {
-  .title {
-    font-size: 20px;
-    font-weight: 700;
-    color: white;
-    display: 'inline-block';
-  }
 
-  .description {
-    font-size: 18px;
-    font-weight: 500;
-    font-style: italic;
-    color: white;
-    display: 'inline-block';
-  }
-
-  .author {
-    font-size: 16px;
-    font-weight: 500;
-    color: white;
-    display: 'inline-block';
-  }
-
-  .publication-button {
-    background-color: rgba(156, 171, 176, 0.4);
-    border-radius: 10px;
-    border-width: 1.5px;
-    border-color: white;
-    border-style: solid;
-    width: fit-content;
-    height: fit-content;
-    margin-right: 0.75vw;
-    margin-top: 10px;
-  }
-}
-
-@media screen and (max-width: 830px)  {
-    .title {
+.title {
       font-size: 115%;
       font-weight: 700;
-      color: white;
+      color: rgb(1, 7, 74);
       display: 'inline-block';
     }
   
-    .description {
+.description {
       font-size: 105%;
       font-weight: 500;
       font-style: italic;
-      color: white;
+      color: rgb(1, 7, 74);
       display: 'inline-block';
     }
   
-    .author {
+.author {
       font-size: 95%;
       font-weight: 500;
-      color: white;
+      color: rgb(1, 7, 74);
       display: 'inline-block';
     }
 
-    .publication-button {
-        background-color: rgba(156, 171, 176, 0.4);
+.publication-button {
+        background-color: transparent;
         border-radius: 10px;
         border-width: 1.5px;
-        border-color: white;
+        border-color: rgb(1, 7, 74);
         border-style: solid;
         width: fit-content;
         height: fit-content;
-        margin-right: 2vw;
+        margin-right: 1vw;
         margin-top: 10px;
     }
-}
 
 .button-div {
     left: 0;

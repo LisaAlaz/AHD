@@ -98,7 +98,7 @@ const SlideShow = () => {
                     (slide.imgMobile)) : (slide.imgWide)}</div> {
                       slide.style === "text4" ? (
                         <Typography variant={slide.style} className={slide.style}>
-                          Interested in taking part in our future studies? Register <u><a href="https://imperial.eu.qualtrics.com/jfe/form/SV_6VexPjnp9OYU0U6" target="_blank" rel="noreferrer" className='here'>here</a></u> and we will keep you up to date.
+                          Interested in taking part in our future studies? Register <u><a href="https://imperial.eu.qualtrics.com/jfe/form/SV_6VexPjnp9OYU0U6" target="_blank" rel="noreferrer" className='here' style={{color: 'white'}}>here</a></u> and we will keep you up to date.
                         </Typography>) : (
                         <Typography variant={slide.style} className={slide.style}>
                           {slide.txt}

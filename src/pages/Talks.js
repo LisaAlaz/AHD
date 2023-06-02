@@ -81,7 +81,7 @@ const Talks = () => {
           <div className='button-div'>
             <div className='publication-button'>
               <Button 
-                style={{color: 'white', textTransform: 'none', fontSize: '15px', fontWeight: 600}} 
+                style={{color: 'rgb(1, 7, 74)', textTransform: 'none', fontSize: '15px', fontWeight: 600}} 
                 onClick={() => window.open(talk.link, "_blank")}
               >
                 {(talk.title === "Introducing Self-Attachment" || talk.title === "Self-attachment technique (SAT): Theory, effectiveness and VR delivery" || talk.title.includes("A new way to enhance social and emotional intelligence and foster creativity")) ? (

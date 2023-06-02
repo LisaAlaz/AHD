@@ -1,7 +1,7 @@
 @media screen and (min-width: 1301px) {
     .contact-container {
        padding-right: 20vw;
-       background-color: rgba(156, 171, 176, 0.7);
+       background-color: rgb(242, 242, 242);
     }
 
     .image-container {
@@ -25,9 +25,9 @@
     }
 
     .email-text {
-       font-size: 20px;
+       font-size: 18px;
        font-weight: bold;
-       color: white;
+       color: rgb(1, 7, 74);
        position: absolute;
        top: 230px;
        left: 73%;
@@ -37,18 +37,31 @@
        filter: brightness(94%);
     }
 
+    .email-text-landscape {
+      font-size: 18px;
+      font-weight: bold;
+      color: rgb(1, 7, 74);
+      position: absolute;
+      top: 230px;
+      left: 73%;
+      right: 5%;
+   }
+   .link:hover { 
+      filter: brightness(94%);
+   }
+
     a {
-       color: white;
+       color: rgb(1, 7, 74);
     }
 
     .participate-button {
        position: absolute;
        top: 330px;
        left: 73%;
-       background-color: rgba(156, 171, 176, 0.4);
+       background-color: transparent;
        border-radius: 10px;
        border-width: 1.5px;
-       border-color: white;
+       border-color: rgb(1, 7, 74);
        border-style: solid;
        width: fit-content;
        height: fit-content;
@@ -58,28 +71,28 @@
       position: absolute;
       top: 330px;
       left: 73%;
-      background-color: rgba(156, 171, 176, 0.4);
+      background-color: transparent;
       border-radius: 10px;
       border-width: 1.5px;
-      border-color: white;
+      border-color: rgb(1, 7, 74);
       border-style: solid;
       width: fit-content;
       height: fit-content;
    }
 
     .address-text {
-       font-size: 20px;
+       font-size: 18px;
        font-weight: bold;
-       color: white;
+       color: rgb(1, 7, 74);
        position: absolute;
        top: 430px;
        left: 73%;
     }
 
     .address-text-landscape {
-      font-size: 20px;
+      font-size: 18px;
       font-weight: bold;
-      color: white;
+      color: rgb(1, 7, 74);
       position: absolute;
       top: 430px;
       left: 73%;
@@ -114,7 +127,7 @@
    .contact-container {
        height: 100vh;
        padding-right: 20vw;
-       background-color: rgba(156, 171, 176, 0.7);
+       background-color: rgb(242, 242, 242);
     }
 
    .image-container {
@@ -126,11 +139,7 @@
     }
 
    .image-container-landscape {
-      width: 100vw;
-      position: relative;
-      overflow: hidden;
-      left: 0px;
-      top: 850px;
+      width: 0vw;
    }
 
    .image {
@@ -138,11 +147,11 @@
     }
 
    .email-text {
-       font-size: 20px;
+       font-size: 18px;
        font-weight: bold;
-       color: white;
+       color: rgb(1, 7, 74);
        position: absolute;
-       top: 170px;
+       top: 20vh;
        left: 5%;
        right: 5%;
     }
@@ -150,18 +159,31 @@
        filter: brightness(94%);
     }
 
+   .email-text-landscape {
+      font-size: 18px;
+      font-weight: bold;
+      color: rgb(1, 7, 74);
+      position: absolute;
+      top: 25vh;
+      left: 5%;
+      right: 5%;
+   }
+  .link:hover { 
+      filter: brightness(94%);
+   }
+
    a {
-       color: white;
+       color: rgb(1, 7, 74);
     }
 
    .participate-button {
        position: absolute;
-       top: 260px;
+       top: 27vh;
        left: 5%;
-       background-color: rgba(156, 171, 176, 0.4);
+       background-color: transparent;
        border-radius: 10px;
        border-width: 1.5px;
-       border-color: white;
+       border-color: rgb(1, 7, 74);
        border-style: solid;
        width: fit-content;
        height: fit-content;
@@ -169,32 +191,32 @@
 
    .participate-button-landscape {
       position: absolute;
-      top: 260px;
+      top: 33vh;
       left: 5%;
-      background-color: rgba(156, 171, 176, 0.4);
+      background-color: transparent;
       border-radius: 10px;
       border-width: 1.5px;
-      border-color: white;
+      border-color: rgb(1, 7, 74);
       border-style: solid;
       width: fit-content;
       height: fit-content;
    }
 
    .address-text {
-       font-size: 20px;
+       font-size: 18px;
        font-weight: bold;
-       color: white;
+       color: rgb(1, 7, 74);
        position: absolute;
-       top: 365px;
+       top: 36vh;
        left: 5%;
     }
 
    .address-text-landscape {
-      font-size: 20px;
+      font-size: 18px;
       font-weight: bold;
-      color: white;
+      color: rgb(1, 7, 74);
       position: absolute;
-      top: 365px;
+      top: 43vh;
       left: 5%;
    }
 
@@ -204,10 +226,10 @@
 
    .google-maps iframe {
        position: absolute;
-       top: 525px;
+       top: 50vh;
        left: 5%;
-       width: 55%;
-       height: 35%;
+       width: 75%;
+       height: 45%;
     }
 
    .google-maps-landscape {
@@ -216,10 +238,10 @@
 
    .google-maps-landscape iframe {
       position: absolute;
-      top: 525px;
+      top: 60vh;
       left: 5%;
       width: 55%;
-      height: 35%;
+      height: 50%;
    }
 }
 
@@ -227,7 +249,7 @@
    .contact-container {
       height: 120vh;
       padding-right: 20vw;
-      background-color: rgba(156, 171, 176, 0.7);
+      background-color: rgb(242, 242, 242);
    }
 
    .image-container {
@@ -252,9 +274,9 @@
    .email-text {
       font-size: 115%;
       font-weight: bold;
-      color: white;
+      color: rgb(1, 7, 74);
       position: absolute;
-      top: 23%;
+      top: 35vh;
       left: 5%;
       right: 5%;
    }
@@ -263,17 +285,30 @@
    }
 
    a {
-      color: white;
+      color: rgb(1, 7, 74);
+   }
+
+   .email-text-landscape {
+      font-size: 115%;
+      font-weight: bold;
+      color: rgb(1, 7, 74);
+      position: absolute;
+      top: 75%;
+      left: 5%;
+      right: 5%;
+   }
+   .link:hover { 
+      filter: brightness(94%);
    }
 
    .participate-button {
       position: absolute;
-      top: 35%;
+      top: 45vh;
       left: 5%;
-      background-color: rgba(156, 171, 176, 0.4);
+      background-color: transparent;
       border-radius: 10px;
       border-width: 1.5px;
-      border-color: white;
+      border-color: rgb(1, 7, 74);
       border-style: solid;
       width: fit-content;
       height: fit-content;
@@ -281,12 +316,12 @@
 
    .participate-button-landscape {
       position: absolute;
-      top: 35%;
+      top: 88%;
       left: 5%;
-      background-color: rgba(156, 171, 176, 0.4);
+      background-color: transparent;
       border-radius: 10px;
       border-width: 1.5px;
-      border-color: white;
+      border-color: rgb(1, 7, 74);
       border-style: solid;
       width: fit-content;
       height: fit-content;
@@ -295,18 +330,18 @@
    .address-text {
       font-size: 115%;
       font-weight: bold;
-      color: white;
+      color: rgb(1, 7, 74);
       position: absolute;
-      top: 48%;
+      top: 53vh;
       left: 5%;
    }
 
    .address-text-landscape {
       font-size: 100%;
       font-weight: bold;
-      color: white;
+      color: rgb(1, 7, 74);
       position: absolute;
-      top: 55%;
+      top: 105%;
       left: 5%;
    }
 
@@ -316,10 +351,10 @@
 
    .google-maps iframe {
       position: absolute;
-      top: 70%;
+      top: 70vh;
       left: 5%;
-      width: 60%;
-      height: 30%;
+      width: 90%;
+      height: 55%;
    }
 
    .google-maps-landscape {
@@ -328,9 +363,9 @@
 
    .google-maps-landscape iframe {
       position: absolute;
-      top: 90%;
+      top: 135%;
       left: 5%;
       width: 60%;
-      height: 30%;
+      height: 60%;
    }
 }

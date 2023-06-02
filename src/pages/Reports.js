@@ -112,7 +112,7 @@ const Reports = () => {
               report.persianVersion !== undefined ? (
                 <div className='publication-button'>
                   <Button 
-                    style={{color: 'white', textTransform: 'none', fontSize: '15px', fontWeight: 600}} 
+                    style={{color: 'rgb(1, 7, 74)', textTransform: 'none', fontSize: '15px', fontWeight: 600}} 
                     onClick={() => window.open(report.persianVersion, "_blank")}
                   >
                     Persian version
@@ -122,7 +122,7 @@ const Reports = () => {
             }
             <div className='publication-button'>
               <Button 
-                style={{color: 'white', textTransform: 'none', fontSize: '15px', fontWeight: 600}} 
+                style={{color: 'rgb(1, 7, 74)', textTransform: 'none', fontSize: '15px', fontWeight: 600}} 
                 onClick={() => window.open(report.link, "_blank")}
               >
                 PDF

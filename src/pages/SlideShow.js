@@ -26,35 +26,36 @@ import { Typography } from '@mui/material';
 import { none } from 'ol/centerconstraint';
 
 
-const delay = 3250;
+const delay = 3000;
 
 const slides = [
-    {imgWide: <img src={brain} alt="" className='slide'/>, 
-     imgNarrow: <img src={brainNarrow} alt="" className='slide'/>, 
-     imgNarrower: <img src={brainNarrower} alt="" className='slide'/>,
-     imgNarrowest: <img src={brainNarrowest} alt="" className='slide'/>, 
-     imgMobile: <img src={brainMobile} alt="" className='slide'/>, 
-     txt: "We are a multidisciplinary research group working at the crossroads of AI, mathematical modelling, cognitive and clinical psychology and neuroscience.",
+    {imgWide: <img src={baby} alt="" className='slide'/>,
+    imgNarrow: <img src={babyNarrow} alt="" className='slide'/>,
+    imgNarrower: <img src={babyNarrower} alt="" className='slide'/>,
+    imgNarrowest: <img src={babyNarrowest} alt="" className='slide'/>,
+    imgMobile: <img src={babyMobile} alt="" className='slide'/>, 
+     txt: "We are a multidisciplinary research group harnessing the power of algorithms to enhance social and emotional intelligence in individuals and treat mental illness.",
+    //  working at the crossroads of AI, mathematical modelling, cognitive and clinical psychology and neuroscience.",
      style: "text1",
     },
  
-    {imgWide: <img src={baby} alt="" className='slide'/>,
-     imgNarrow: <img src={babyNarrow} alt="" className='slide'/>,
-     imgNarrower: <img src={babyNarrower} alt="" className='slide'/>,
-     imgNarrowest: <img src={babyNarrowest} alt="" className='slide'/>,
-     imgMobile: <img src={babyMobile} alt="" className='slide'/>, 
+    {imgWide: <img src={brain} alt="" className='slide'/>,
+     imgNarrow: <img src={brainNarrow} alt="" className='slide'/>,
+     imgNarrower: <img src={brainNarrower} alt="" className='slide'/>,
+     imgNarrowest: <img src={brainNarrowest} alt="" className='slide'/>,
+     imgMobile: <img src={brainMobile} alt="" className='slide'/>, 
      txt: "We are developing digital tools for self-attachment technique, an integrative, holistic, self-administrable intervention informed by attachment theory.",
      style: "text2",
     },
  
-    {imgWide: <img src={mb} alt="" className='slide'/>,
-     imgNarrow: <img src={mbNarrow} alt="" className='slide'/>,
-     imgNarrower: <img src={mbNarrower} alt="" className='slide'/>,
-     imgNarrowest: <img src={mbNarrowest} alt="" className='slide'/>,
-     imgMobile: <img src={mbMobile} alt="" className='slide'/>,
-     txt: "We harness the power of algorithms to enhance social and emotional intelligence in individuals and treat mental illness.",
-     style: "text3",
-    },
+    // {imgWide: <img src={mb} alt="" className='slide'/>,
+    //  imgNarrow: <img src={mbNarrow} alt="" className='slide'/>,
+    //  imgNarrower: <img src={mbNarrower} alt="" className='slide'/>,
+    //  imgNarrowest: <img src={mbNarrowest} alt="" className='slide'/>,
+    //  imgMobile: <img src={mbMobile} alt="" className='slide'/>,
+    //  txt: "We harness the power of algorithms to enhance social and emotional intelligence in individuals and treat mental illness.",
+    //  style: "text3",
+    // },
  
     {imgWide: <img src={vr} alt="" className='slide'/>,
      imgNarrow: <img src={vrNarrow} alt="" className='slide'/>,

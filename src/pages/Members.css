@@ -31,7 +31,7 @@
 }
 .dark-background:hover {
     background-color: rgb(229, 230, 231);
-    filter: brightness(107.5%);
+    filter: brightness(92%);
 }
 
 .medium-background {
@@ -43,7 +43,7 @@
 }
 .medium-background:hover {
     background-color: rgb(242, 242, 242);
-    filter: brightness(107.5%);
+    filter: brightness(92%);
 }
 
 .light-background {
@@ -55,7 +55,7 @@
 }
 .light-background:hover {
     background-color: rgb(248, 247, 247);;
-    filter: brightness(107.5%);
+    filter: brightness(92%);
 }
 
 .text-container {

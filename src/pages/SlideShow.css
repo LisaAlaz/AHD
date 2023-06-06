@@ -28,23 +28,6 @@
     padding-top: 10px;
     padding-bottom: 15px;
     padding-left: 15px;
-    padding-right: 15px;
-    color: white;
-    background-color: rgba(109, 147, 204, 0.8);
-    font-weight: bold;
-    font-size: 38px;
-    position: absolute;
-    text-align: justify;
-    top: 60vh;
-    left: 0px;
-  }
-
-  .text2 {
-    width: 48vw;
-    height: fit-content;
-    padding-top: 10px;
-    padding-bottom: 15px;
-    padding-left: 15px;
     padding-right: 60px;
     color: white;
     background-color: rgba(109, 147, 204, 0.8);
@@ -53,10 +36,27 @@
     position: absolute;
     text-align: justify;
     top: 60vh;
-    right: 0px
+    right: 0px;
   }
 
-  .text3 {
+  .text2 {
+    width: 48vw;
+    height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    background-color: rgba(109, 147, 204, 0.8);
+    font-weight: bold;
+    font-size: 38px;
+    position: absolute;
+    text-align: justify;
+    top: 60vh;
+    left: 0px
+  }
+
+  /* .text3 {
     width: 48vw;
     height: fit-content;
     padding-top: 10px;
@@ -71,7 +71,7 @@
     text-align: justify;
     top: 7vh;
     left: 0px;
-  }
+  } */
 
   .text4 {
     width: 48vw;

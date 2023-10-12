@@ -76,12 +76,6 @@ const groupMembers = [
      background: "light-background",
      email: "neophytos.polydorou19@imperial.ac.uk"},
 
-    {name: "Lisa Alazraki",
-     description: "PhD Student",
-     img: lisa,
-     background: "dark-background",
-     email: "lisa.alazraki20@imperial.ac.uk"},
-
     {name: "Mary Kenneth",
      description: "PhD Student",
      img: mary,
@@ -95,10 +89,16 @@ const groupMembers = [
      email: "ruoyu.hu18@imperial.ac.uk"},
 
     {name: "Xinyan Ye",
-     description: "Research Assistant",
+     description: "PhD Student",
      img: xinyan,
      background: "dark-background",
      email: "xinyan.ye19@imperial.ac.uk"},
+
+     {name: "Lisa Alazraki",
+     description: "Former MSc Student and Collaborator",
+     img: lisa,
+     background: "dark-background",
+     email: "lisa.alazraki20@imperial.ac.uk"},
   ];
 
 const Members = () => {
